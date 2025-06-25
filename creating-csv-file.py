@@ -3,10 +3,10 @@ from bs4 import BeautifulSoup
 import csv
 
 # Path to the folder containing the extracted HTML files
-html_folder_path = "C:/Users/mmehr/OneDrive/Desktop/CHALMERS/3_ThirdYear/3_StudyPeriod2/Introduction to data science and AI - DAT565/Assignments/Assignment_2/kungalv_slutpriser/"  # Update this
+html_folder_path = "C:/Users/kungalv_slutpriser/" 
 
 # Path to save the output CSV
-csv_file_path = "C:/Users/mmehr/OneDrive/Desktop/CHALMERS/3_ThirdYear/3_StudyPeriod2/Introduction to data science and AI - DAT565/Assignments/Assignment_2/csv-file/kungalv_house_prices.csv"
+csv_file_path = "C:/Users/kungalv_house_prices.csv"
 
 # Open the CSV file for writing
 with open(csv_file_path, mode='w', newline='', encoding='utf-8') as csvfile:
